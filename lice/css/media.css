@@ -1,0 +1,10 @@
+@media(max-width:480px){
+}
+@media(max-width:340px){
+    .bg-img{
+        height:120px;
+    }
+    .call-us .phone{
+        margin-right: 0;
+    }
+}
