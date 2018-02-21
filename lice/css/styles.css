@@ -736,7 +736,7 @@ header, .lt-header-in {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    margin-top: -28px;
+    margin-top: -26px;
     font-size: 18px;
 }
 .block-1.not-img{
@@ -805,42 +805,7 @@ header, .lt-header-in {
     box-sizing: border-box;
      border:7px solid rgba(255,255,255,0.5)
  }
-.block-3 .item-1 .image{
-     background: url("../images/icon1.png") no-repeat center;
- }
-.block-3 .item-2 .image{
-    background: url("../images/icon2.png") no-repeat center;
-}
-.block-3 .item-3 .image{
-    background: url("../images/icon3.png") no-repeat center;
-}
-.block-3 .item-4 .image{
-    background: url("../images/icon4.png") no-repeat center;
-}
-.block-3 .item-5 .image{
-    background: url("../images/icon5.png") no-repeat center;
-}
-.block-3 .item-6 .image{
-     background: url("../images/icon6.png") no-repeat center;
- }
-.block-3 .item-7 .image{
-      background: url("../images/icon7.png") no-repeat center;
-  }
-.block-3 .item-8 .image{
-       background: url("../images/icon8.png") no-repeat center;
-   }
-.block-3 .item-9 .image{
-    background: url("../images/icon9.png") no-repeat center;
-}
-.block-3 .item-10 .image{
-    background: url("../images/icon10.png") no-repeat center;
-}
-.block-3 .item-11 .image{
-    background: url("../images/icon11.png") no-repeat center;
-}
-.block-3 .item-12 .image{
-    background: url("../images/icon12.png") no-repeat center;
-}
+
 .block-4{
     font-family: 'MuseoSansCyrl100',sans-serif;
     text-align: center;
@@ -911,11 +876,11 @@ footer .copyright a:before {
 
 /*about us */
 .about-us.bg-img {
-    background: url(../images/about/main.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
+    background: url(../images/about.jpg);
+    -webkit-background-size: contain;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
 
 }
 .advantag,
@@ -952,7 +917,7 @@ footer .copyright a:before {
     padding-top: 12px;
     font-size: 16px;
     line-height: 22px;
-    padding-bottom: 16px;
+    padding-bottom: 6px;
 }
 .block-2.attention{
     font-family: 'Open Sans',sans-serif;
@@ -1407,16 +1372,6 @@ h2.title.faq {
 /*Location_all*/
 
 /*location-inner*/
-.map{
-    background-image: url(../images/map.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    width:100%;
-    height:262px;
-    margin: 7px 0;
-}
 .lt-loc-item.loc-inner{
     background: #eee;
     overflow: hidden;
@@ -1454,11 +1409,18 @@ h2.title.faq {
 
 /*membership*/
 .bg-img.membership{
-    background: url(../images/banner_membership.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
+    background: url(../images/why_bg.jpg);
+    -webkit-background-size: contain;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+}
+.block-4.blue{
+    color: #3a9a88;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px 0 9px;
 }
 .block-2.blue {
     color: #3a9a88;
@@ -1896,7 +1858,7 @@ a.lt-btn-b.white i{
 /*shop_inner*/
 
 .advantages {
-    padding-top: 50px;
+    padding-top: 30px;
     position: relative;
     background: #f8f8f8;
     z-index: 1; }
@@ -1916,10 +1878,11 @@ a.lt-btn-b.white i{
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 25px;
     margin-bottom: 16px; }
 .advantages p {
+    font-size: 16px;
     color: #b4b9d3; }
 .bg-img.frlr{
     background: url("../images/frlr_bg_media.png");
@@ -1929,7 +1892,7 @@ a.lt-btn-b.white i{
     background-repeat: no-repeat;
 }
 .services-top.advantages .services-item {
-    padding: 30px 20px 30px;
+    padding: 20px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1976,9 +1939,11 @@ a.lt-btn-b.white i{
     background:  rgba(255, 255, 255, 0);
     color: #fff;
 }
+.services-top.advantages .services-item .services-item-title {
+    font-size: 20px;
+}
 .services-top.advantages .services-item:hover .services-item-title {
     color: #fff;
-
 }
 .services-top.advantages .services-item:hover .btn-schedule {
     color: #fff;
@@ -2027,16 +1992,15 @@ a.lt-btn-b.white i{
     width: 100%;
     margin-bottom: 20px;
 }
-
 .how-it-works {
     color: #b4b9d3;
     text-align: center;
-    padding: 74px 0 100px; }
+    padding: 20px 0; }
 .how-it-works .col-lg-3:nth-child(1) {
     clear: left; }
 .how-it-works img {
     width: auto;
-    margin-bottom: 36px; }
+    margin-bottom: 10px; }
 .how-it-works .how-title {
     color: #fff;
     font-size: 36px;
@@ -2076,7 +2040,7 @@ a.lt-btn-b.white i{
     color: #b4b9d3; }
 .how-it-works .how-item .btn {
     position: absolute;
-    bottom: 15px;
+    bottom: 22px;
     border: 0;
     left: 50%;
     white-space: nowrap;
@@ -2152,3 +2116,33 @@ a.lt-btn-b.white i{
     display: block;
     font-size: 20px; }
 
+.consid .image img{
+    max-width: 100%;
+}
+.consid .title {
+    padding: 24px 15px;
+}
+.location-bg{
+    background: url("../images/location_bg.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+}
+.locations-schedule .lt-btn-b.lt-btn-ba{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.company .lt-btn-b.lt-btn-ba{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.block-2.about-us.title.services-title{
+    line-height: 1.1;
+    padding: 15px 0;
+}
+.nt-subtitle{
+    display: block;
+    padding-top: 15px;
+}
