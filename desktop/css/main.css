@@ -847,7 +847,7 @@ footer .copyright a:before {
   z-index: 10; }
 
 .au-servises {
-  background: url(../images/desktop/au_bg_02.png) no-repeat center;
+  background: url(../images/desktop/item_bg_02.png) no-repeat center;
   -webkit-background-size: cover;
           background-size: cover;
   padding: 140px 0 90px;
